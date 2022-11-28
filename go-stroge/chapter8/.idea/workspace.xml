@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7d0a0347-e72c-4d49-9ab6-6ad16d7c51ed" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/../chapter1/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter1/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/apiServer/apiServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/apiServer/apiServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/apiServer/heartbeat/heartbeat.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/apiServer/heartbeat/heartbeat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/apiServer/locate/locate.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/apiServer/locate/locate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/apiServer/objects/get_stream.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/apiServer/objects/get_stream.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/apiServer/objects/put_stream.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/apiServer/objects/put_stream.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/apiServer/objects/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/apiServer/objects/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/dataServer/dataServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/dataServer/dataServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/dataServer/heartbeat/heartbeat.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/dataServer/heartbeat/heartbeat.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/dataServer/locate/locate.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/dataServer/locate/locate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter2/test/put.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter2/test/put.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/apiServer/apiServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/apiServer/apiServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/apiServer/heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/apiServer/heartbeat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/apiServer/objects/del.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/apiServer/objects/del.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/apiServer/objects/get.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/apiServer/objects/get.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/apiServer/objects/put.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/apiServer/objects/put.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/apiServer/versions/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/apiServer/versions/handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/dataServer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter3/test/putmapping.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter3/test/putmapping.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/apiServer/heartbeat" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/apiServer/heartbeat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/apiServer/locate" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/apiServer/locate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/apiServer/objects/put_stream.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/apiServer/objects/put_stream.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/apiServer/objects/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/apiServer/objects/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/apiServer/versions" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/apiServer/versions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/dataServer/dataServer.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/dataServer/dataServer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/dataServer/locate/locate.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/dataServer/locate/locate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/dataServer/objects/get_object.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/dataServer/objects/get_object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter4/dataServer/temp/commit.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter4/dataServer/temp/commit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter5/apiServer/locate/locate.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/apiServer/locate/locate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapter5/apiServer/objects/get_stream.go" beforeDir="false" afterPath="$PROJECT_DIR$/../chapter5/apiServer/objects/get_stream.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objectScanner/objectScanner.go" beforeDir="false" afterPath="$PROJECT_DIR$/objectScanner/objectScanner.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/.g/versions/1.18.1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2GtA7694kB1YJMUHsGwGFgP3RBF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
