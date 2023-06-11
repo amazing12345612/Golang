@@ -28,12 +28,13 @@ func ListenHeartbeat() {
 	}
 }
 
-//超时删除该节点
+// 超时删除该节点
 func removeExpiredDataServer() {
 	for {
 		time.Sleep(5 * time.Second)
 		mutex.Lock()
 		for s, t := range dataServers {
+			//
 			if t.Add(10 * time.Second).Before(time.Now()) {
 				delete(dataServers, s)
 			}

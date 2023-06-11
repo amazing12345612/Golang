@@ -31,7 +31,11 @@ func TestMain(t *testing.T) {
 
 }
 func TestHash(t *testing.T) {
-	file, _ := os.Open("/Users/cjm/Desktop/区块链与隐私保护综述.docx")
+	file, _ := os.Open("/Users/cjm/1.cpp")
 	d := CalculateHash(file)
 	fmt.Println(d)
+}
+
+func TestHashmap(t *testing.T) {
+
 }

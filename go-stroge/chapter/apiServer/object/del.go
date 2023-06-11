@@ -1,14 +1,15 @@
 package objects
 
 import (
-	"chapter6/es"
+	"chapter/es"
 	"log"
 	"net/http"
 	"strings"
 )
 
-// curl -delete 127.0.0.1:12345/objects/name
+// Url = 127.0.0.1:12345/
 func del(w http.ResponseWriter, r *http.Request) {
+
 	name := strings.Split(r.URL.EscapedPath(), "/")[2]
 	version, e := es.SearchLatestVersion(name)
 	if e != nil {

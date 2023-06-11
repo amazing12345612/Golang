@@ -15,7 +15,7 @@ func testEncodeDecode(t *testing.T, p []byte) {
 	writers := make([]io.Writer, ALL_SHARDS)
 	readers := make([]io.Reader, ALL_SHARDS)
 	for i := range writers {
-		writers[i], _ = os.Create(fmt.Sprintf("/tmp/ut_%d", i))
+		writers[i], _ = os.Create(fmt.Sprintf("./tmp/ut_%d", i))
 	}
 	enc := NewEncoder(writers)
 	length := len(p)

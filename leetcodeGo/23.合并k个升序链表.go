@@ -52,7 +52,7 @@ func mergeKLists1(lists []*ListNode) *ListNode {
 		if l > r {
 			return nil
 		}
-		mid := (l - r) / 2
+		mid := l + (l-r)/2
 		return Merge(dfs(lists, l, mid), dfs(lists, mid+1, r))
 	}
 	return dfs(lists, 0, len(lists)-1)

@@ -9,7 +9,7 @@ import (
 )
 
 func TestT(t *testing.T) {
-	client, err := elastic.NewClient(elastic.SetSniff(false), elastic.SetURL("http://10.203.209.28:9200"))
+	client, err := elastic.NewClient(elastic.SetSniff(false), elastic.SetURL("http://127.0.0.1:9200"))
 	if err != nil {
 		panic(err)
 	}

@@ -18,7 +18,6 @@ func storeObject(r io.Reader, hash string, size int64) (int, error) {
 	if e != nil {
 		return http.StatusInternalServerError, e
 	}
-
 	reader := io.TeeReader(r, stream)
 	d := utils.CalculateHash(reader)
 	//校验哈希值

@@ -2,10 +2,29 @@ package rabbitmq
 
 import (
 	"encoding/json"
+	"fmt"
 	"testing"
 )
 
 const host = "amqp://guest:guest@127.0.0.1:5672"
+
+func TestXxx(t *testing.T) {
+	q := New(host)
+	defer q.Close()
+	q.Bind("test")
+
+	q2 := New(host)
+	defer q2.Close()
+	q2.Bind("test")
+
+	q3 := New(host)
+	defer q3.Close()
+
+	expect := "test"
+	q3.Publish("test", "any")
+	q3.Publish("test", expect)
+
+}
 
 func TestPublish(t *testing.T) {
 	q := New(host)
@@ -20,7 +39,7 @@ func TestPublish(t *testing.T) {
 	defer q3.Close()
 
 	expect := "test"
-	q3.Publish("test2", "any")
+	q3.Publish("test", expect)
 	q3.Publish("test", expect)
 
 	c := q.Consume()
@@ -30,6 +49,7 @@ func TestPublish(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
+	fmt.Println("p收到的", actual)
 	if actual != expect {
 		t.Errorf("expected %s, actual %s", expect, actual)
 	}
@@ -43,6 +63,7 @@ func TestPublish(t *testing.T) {
 	if err != nil {
 		t.Error(err)
 	}
+	fmt.Println("p2收到的", actual)
 	if actual != expect {
 		t.Errorf("expected %s, actual %s", expect, actual)
 	}

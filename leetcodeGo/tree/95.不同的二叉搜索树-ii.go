@@ -13,15 +13,9 @@
  *     Right *TreeNode
  * }
  */
-package main
+package tree
 
 import "fmt"
-
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
 
 func generateTrees(n int) (result []*TreeNode) {
 	l := make([]*TreeNode, n)

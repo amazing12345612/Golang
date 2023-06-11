@@ -9,4 +9,5 @@ import (
 func TestXxx(t *testing.T) {
 	file, _ := os.Open("/Users/cjm/1.go")
 	fmt.Println(CalculateHash(file))
+	fmt.Println()
 }

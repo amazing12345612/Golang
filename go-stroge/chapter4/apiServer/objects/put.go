@@ -15,7 +15,6 @@ func put(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
-
 	size := utils.GetSizeFromHeader(r.Header)
 	c, e := storeObject(r.Body, hash, size)
 	if e != nil {

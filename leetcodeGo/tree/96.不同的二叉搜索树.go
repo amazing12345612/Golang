@@ -23,6 +23,9 @@ func generate(l, r int) int {
 	if l > r {
 		return 0
 	}
+	if l == r {
+		return 1
+	}
 	result := 0
 	for i := l; i <= r; i++ {
 		m := generate(l, i-1)

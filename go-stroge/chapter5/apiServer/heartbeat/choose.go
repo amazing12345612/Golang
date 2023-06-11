@@ -28,3 +28,5 @@ func ChooseRandomDataServers(n int, exclude map[int]string) (ds []string) {
 	}
 	return
 }
+
+//随机选取

@@ -4,8 +4,6 @@ import (
 	"context"
 	"fmt"
 	"testing"
-
-	"github.com/olivere/elastic/v7"
 )
 
 func TestT(t *testing.T) {

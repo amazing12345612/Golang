@@ -33,7 +33,7 @@ func put(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusNotFound)
 		return
 	}
-	offset := utils.GetOffsetFromHeader(r.Header)
+	offset := utils.GetOffsetFromHeader(r.Header) //获取range偏移量
 	if current != offset {
 		w.WriteHeader(http.StatusRequestedRangeNotSatisfiable)
 		return

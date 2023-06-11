@@ -16,7 +16,7 @@ func NewEncoder(writers []io.Writer) *encoder {
 	return &encoder{writers, enc, nil}
 }
 
-//若是缓存满了，则写入
+// 若是缓存满了，则写入
 func (e *encoder) Write(p []byte) (n int, err error) {
 	//输入byte长度 假设为25000
 	length := len(p)
@@ -26,8 +26,8 @@ func (e *encoder) Write(p []byte) (n int, err error) {
 	for length != 0 {
 		//cache 0 next == 16000
 		next := BLOCK_SIZE - len(e.cache)
-		//如果长度小于缓存空余大小，那么直接存入，比如
-		// 16000<25000
+
+		//
 		if next > length {
 			next = length
 		}
@@ -44,7 +44,7 @@ func (e *encoder) Write(p []byte) (n int, err error) {
 	return len(p), nil
 }
 
-//调用patch发送
+// 调用patch发送
 func (e *encoder) Flush() {
 	if len(e.cache) == 0 {
 		return

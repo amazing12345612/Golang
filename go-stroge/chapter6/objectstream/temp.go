@@ -12,9 +12,9 @@ type TempPutStream struct {
 	Uuid   string
 }
 
-//size == 25000 object == hash.i 哈希加数字
-func NewTempPutStream(server, object string, size int64) (*TempPutStream, error) {
-	request, e := http.NewRequest("POST", "http://"+server+"/temp/"+object, nil)
+// size == 25000 object == hash.i 哈希加数字
+func NewTempPutStream(server, hash string, size int64) (*TempPutStream, error) {
+	request, e := http.NewRequest("POST", "http://"+server+"/temp/"+hash, nil)
 	if e != nil {
 		return nil, e
 	}

@@ -7,8 +7,6 @@
 // @lc code=start
 package main
 
-import "fmt"
-
 func numIslands(grid [][]byte) int {
 	m := len(grid)
 	n := len(grid[0])
@@ -37,9 +35,10 @@ func numIslands(grid [][]byte) int {
 	}
 	return count
 }
-func main() {
-	nums := [][]byte{{'1', '1', '1'}}
-	fmt.Println(numIslands(nums))
-}
+
+// func main() {
+// 	nums := [][]byte{{'1', '1', '1'}}
+// 	fmt.Println(numIslands(nums))
+// }
 
 // @lc code=end

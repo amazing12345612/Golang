@@ -1,7 +1,7 @@
 package objects
 
 import (
-	"chapter6/es"
+	"chapter/es"
 	"io"
 	"log"
 	"net/http"
